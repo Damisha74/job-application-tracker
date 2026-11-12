@@ -1,0 +1,25 @@
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Node.js (for future React frontend)
+node_modules/
+dist/
+build/
+
+# IDE files
+.idea/
+*.iml
+
+# Operating system
+.DS_Store
+Thumbs.db
